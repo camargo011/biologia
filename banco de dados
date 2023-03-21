@@ -1,0 +1,15 @@
+-- create a table
+CREATE TABLE Biologia (
+  ano int (4),
+  eventos VARCHAR(250)NOT NULL,
+  localidade VARCHAR(30)NOT NULL,
+  descricao VARCHAR(255)NOT NULL
+);
+-- insert some values
+INSERT INTO Biologia VALUES (2023,'Iceberg do tamanho de sao paulo', 'Europa', 'pode ameaçar navegaçao');
+INSERT INTO Biologia VALUES (2022, 'rato-toupeira', 'Somalia', 'O mamifero que nao envelhece e pode ser a chave da cura do cancer' );
+INSERT INTO Biologia VALUES (2021, 'peixe drogado', 'Esgoto', 'esgosto esta inundados de drogas, e os peixes trutam acabam consumindo e viciando');
+INSERT INTO Biologia VALUES (2021, 'belias orcas', 'mar', 'maes orcas se sacrifcam pelos filhos a vida toda');
+
+-- fetch some values
+SELECT * FROM Biologia 
